@@ -14,7 +14,7 @@ This project is a mobile-friendly user interface designed using HTML, CSS, JavaS
 
 ## Screenshot
 
-![Mobile Fun UI](./path_to_image.png)
+![Mobile Fun UI](image.png)
 
 ## Getting Started
 
