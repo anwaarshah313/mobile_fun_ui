@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# mobile_fun_ui
 
-## Available Scripts
+This project is a mobile-friendly user interface designed using HTML, CSS, JavaScript, and React JS. The UI includes various fitness tracking features such as step count, calories burned, miles walked, active minutes, and heart rate monitoring.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Steps Tracking**: Displays the number of steps taken.
+- **Calories Burned**: Shows the number of calories burned.
+- **Distance Covered**: Indicates the miles walked.
+- **Active Minutes**: Displays the total active minutes.
+- **Heart Rate Monitoring**: Shows the current heart rate and resting heart rate.
+- **Hourly Activity**: Tracks activity per hour.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Mobile Fun UI](./path_to_image.png)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- npm (Node Package Manager)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/anwaarshah/mobile_fun_ui.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd mobile_fun_ui
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+### Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To start the development server, run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+The application will open in your default web browser. If it doesn't, navigate to [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+- [React JS](https://reactjs.org/)
+- HTML
+- CSS
+- JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Please fork this repository and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
+3. Commit your Changes (`git commit -m 'Add some feature'`)
+4. Push to the Branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Anwaar Shah - [anwaarshah194@gmail.com](mailto:anwaarshah194@gmail.com)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/anwaarshah313/mobile_fun_ui](https://github.com/anwaarshah313/mobile_fun_ui)
