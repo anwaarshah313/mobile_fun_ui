@@ -1,38 +1,247 @@
-.App {
-  text-align: center;
+.main {
+  
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-section {
+    background-color: rgb(59, 66, 69);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 430px;
+    height: 1070px;
+    padding: 40px;
+    border-radius: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header .one{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .one img{
+    height: 50px;
+    width: 50px;
+    border-radius: 16px;
+    border:1px solid white;
+}
+header .one i{
+    font-size: 30px;
+}
+header .two{
+    margin: 30px 0;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .two i{
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.193), rgba(0, 0, 0, 0.308));
+    border-radius: 28px;
+    box-shadow: 
+    10px 10px 15px rgba(0, 0, 0, 0.308),  /* Black shadow */
+    -10px -10px 15px  rgba(255, 255, 255, 0.193); /* White shadow */
+
 }
 
-.App-link {
-  color: #61dafb;
+.circle circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, rgba(0, 255, 255, 0.867), rgba(0, 0, 0, 0.012));
+
+}
+.circle circle i{
+font-size: 30px;
+opacity: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle circle h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 16px 0;
 }
+
+.circle circle p{
+    font-size: 20px;
+    opacity: 70%;
+}
+
+
+.rows{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  margin: 30px 0;
+
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 30%;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.193), rgba(0, 0, 0, 0.308));
+    border-radius: 28px;
+    box-shadow: 
+    10px 10px 15px rgba(0, 0, 0, 0.308),  /* Black shadow */
+    -10px -10px 15px  rgba(255, 255, 255, 0.193); /* White shadow */
+
+}
+
+
+
+body {
+    
+    background-color: #000000;
+    
+}
+
+
+.progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.progress svg {
+    width: 100%;
+    height: 100%;
+}
+
+.progress circle {
+    fill: none;
+    stroke-width: 10;
+}
+
+.progress circle.bg {
+    stroke: #555;
+}
+
+.progress circle.fg-one {
+    stroke: #1abc9c;
+    stroke-dasharray: 333;
+    stroke-dashoffset: 100;
+}
+.progress circle.fg-two {
+    stroke: #1abc9c;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 100;
+}
+.progress circle.fg-three {
+    stroke: #1abc9c;
+    stroke-dasharray: 270;
+    stroke-dashoffset: 100;
+}
+
+.label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.heading {
+    padding: 10px 0;
+    font-size: 30px;
+}
+.text{
+font-size: 20px;
+opacity: 70%;
+}
+
+
+.section-col{
+    /* background-color: #1abc9c; */
+}
+
+.col-in{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(135, 222, 222); */
+}
+
+.col-heading {
+    padding: 5px 0;
+    font-size: 30px;
+}
+.col-text{
+    padding: 5px 0;
+font-size: 20px;
+opacity: 60%;
+}
+.col-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.193), rgba(0, 0, 0, 0.308));
+    border-radius: 28px;
+    box-shadow: 
+    10px 10px 15px rgba(0, 0, 0, 0.308),  /* Black shadow */
+    -10px -10px 15px  rgba(255, 255, 255, 0.193); /* White shadow */
+
+}
+
+
+.col-box i{
+    font-size: 34px;
+}
+
+.text-out{
+    padding-left: 30px;
+    /* background-color: rgb(21, 99, 99); */
+}
+
+
+.btn-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.193), rgba(0, 0, 0, 0.308));
+    border-radius: 50%;
+    box-shadow: 
+    10px 10px 15px rgba(0, 0, 0, 0.308),  /* Black shadow */
+    -10px -10px 15px  rgba(255, 255, 255, 0.193); /* White shadow */
+
+}
+
+.btn-box i{
+    font-size: 34px;
+}
+
